@@ -1,0 +1,16 @@
+from multiprocessing.connection import Connection
+import unittest
+
+
+
+from bot import Botito
+from peon import Peon
+
+class TestBasic(unittest.TestCase):
+    def test_bot(self):
+        self.assertTrue(Botito)
+        self.assertTrue(Peon)
+        
+
+if __name__ == "__main__":
+    unittest.main
